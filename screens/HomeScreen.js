@@ -8,6 +8,7 @@ import {
   MagnifyingGlassIcon,
 } from 'react-native-heroicons/outline';
 import Categories from '../components/Categories';
+import FeatureRow from '../components/FeatureRow';
 
 const HomeScreen = () => {
   const navigation = useNavigation();
@@ -52,6 +53,17 @@ const HomeScreen = () => {
         <Categories />
 
         {/* Feature rows */}
+        <FeatureRow id="123" title="Featured" description="Paid placements from out partners" />
+        <FeatureRow
+          id="1234"
+          title="Tasty Discounts"
+          description="Everyones been enjoying these juicy discounts!"
+        />
+        <FeatureRow
+          id="12345"
+          title="Offers near you"
+          description="Why not support your local restaurant tonight"
+        />
       </ScrollView>
     </SafeAreaView>
   );
