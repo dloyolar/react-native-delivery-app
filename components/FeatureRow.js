@@ -50,7 +50,7 @@ const FeatureRow = ({ id, title, description }) => {
             imgUrl={restaurant.image}
             title={restaurant.name}
             rating={restaurant.rating}
-            genre={restaurant.type?.genre}
+            genre={restaurant.type?.name}
             address={restaurant.address}
             short_description={restaurant.short_description}
             dishes={restaurant.dishes}
