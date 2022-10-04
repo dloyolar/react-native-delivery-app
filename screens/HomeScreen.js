@@ -79,7 +79,7 @@ const HomeScreen = () => {
             key={category._id}
             id={category._id}
             title={category.name}
-            description="Paid placements from out partners"
+            description={category.short_description}
           />
         ))}
       </ScrollView>
