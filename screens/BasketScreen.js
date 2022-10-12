@@ -28,8 +28,6 @@ const BasketScreen = () => {
     setGroupedItemsInBasket(grupedItems);
   }, [items]);
 
-  console.log(groupedItemsInBasket);
-
   return (
     <SafeAreaView className="flex-1 bg-white">
       <View className="flex-1 bg-gray-100">
@@ -102,7 +100,10 @@ const BasketScreen = () => {
               {(basketTotal + 5.99).toLocaleString('en-US', { style: 'currency', currency: 'USD' })}
             </Text>
           </View>
-          <TouchableOpacity className="rounded-lg bg-[#00CCBB] p-4">
+          <TouchableOpacity
+            className="rounded-lg bg-[#00CCBB] p-4"
+            onPress={() => navigation.navigate('PreparingOrderScreen')}
+          >
             <Text className="text-center text-white text-xl font-bold">Place Order</Text>
           </TouchableOpacity>
         </View>
