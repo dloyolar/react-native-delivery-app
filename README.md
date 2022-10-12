@@ -1,6 +1,6 @@
 # React Native Delivery App
 
-Delivery App with React Native and maps using Expo 💟
+Delivery App with React Native and maps using Expo 💟. App based and inspirated on Deliveroo App
 
 ## Screenshots
 
