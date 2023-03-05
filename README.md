@@ -1,4 +1,4 @@
-# React Native Delivery App
+# React Native - Delivery App
 
 Delivery App with React Native and maps using Expo 💟. App based and inspirated on Deliveroo App
 
@@ -22,7 +22,7 @@ Note: This project was build with Expo CLI 🚀
 ```bash
   cd my-project
   npm install
-  expo start
+  expo start | npm run ios | npm run android
 ```
 
 ## Tech
